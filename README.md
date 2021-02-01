@@ -1,2 +1,2 @@
-# Google-Homepage-Project
+# Google-Homepage
 Practice Project
