@@ -1,5 +1,83 @@
 <html>
+    <head>
+        <style>
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}    
+li {
+    float: left;
+}  
+a {
+    display: block;
+    padding: 20px;
+    background-color: white;
+}
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  text-underline-position: below;
+}
+input {
+    width: 70%;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  float: center;
+  }
+  input:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24), 2px 2px 2px 2px rgba(0,0,0,0.19);
+  }
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #bfd3c0;
+  border: none;
+  color: rgb(87, 81, 81);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 25%;
+}
+.button {
+    background-color: rgb(238, 229, 229);
+    border: none;
+    color: rgb(41, 39, 39);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+        </style>
+        <ul>
+            <li><a href="about.asp">About</a></li>
+            <li><a href="store.asp">Store</a></li>
+            <li style="float:right"><a class="active" href="gmail.asp">Gmail</a></li>
+            <li style="float:right"><a class="active" href="images.asp">Images</a></li>
+            <li style="float:right"><a class="active" href="signin.asp">Sign In</a></li>
+        </ul>
+    </head>
+
+
 <body>
-<p> Hello World </p>
+    <br>
+    <br>
+    <a href="#"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
+<br>
+    <input type="text">
+<br>
+<br>
+<button class="button button1">Google Search</button>
+<button class="button button2">Feeling Lucky</button>
 </body>
 </html>
